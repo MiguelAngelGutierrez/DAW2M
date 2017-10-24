@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <title>Ejecicio10</title>
+
+    </head>
+
+    <body>
+        
+        <h1>Formulario de solicitud de zapatos</h1>
+
+    <form method="get">
+       
+        <fieldset>
+
+            <legend>Informaci&oacute;n personal</legend>
+            
+            <ul>
+                <li>
+                    <label>Nombre: 
+                        <input type="text" name="nombre">
+                    </label>
+                    
+                </li>
+                
+                <li>
+                    <label>Email: 
+                        <input type="text" name="nombre">
+                    </label>
+                    
+                </li>
+                
+                <li>
+                    <label>Tel&eacute;fono: 
+                        <input type="number" name="telefono">
+                    </label>
+                    
+                </li>
+                
+                <li>
+                    <label>Cu&eacute;ntanos tu historia.... <br>
+                        <textarea name="comentario" rows="10" cols="100" placeholder="No mas de 300 caracteres"></textarea>
+                    </label>
+                </li>
+                
+            </ul>
+            
+            
+        </fieldset>
+        
+        <h2>Diseña tus zapatos:</h2>
+        
+        <fieldset>
+            
+            <legend>Diseño personalizado</legend>
+            
+                <fieldset>
+                    
+                    <legend>Color(Elige uno)</legend>
+                    
+                    <ul>
+                        <li>
+                            <label>
+                                 <input type="radio" name="color" value="rojo">Rojo
+                            </label>
+                        </li>
+                        
+                        <li>
+                            <label>
+                                 <input type="radio" name="color" value="azul">Azul
+                            </label>
+                        </li>
+                        
+                        <li>
+                            <label>
+                                 <input type="radio" name="color" value="negro">Negro
+                            </label>
+                        </li>
+                        
+                        <li>
+                            <label>
+                                 <input type="radio" name="color" value="plata">Plata
+                            </label>
+                        </li>
+                    
+                    </ul>
+            
+                </fieldset>
+            
+                <fieldset>
+                    
+                    <legend>Caracteristicas(Elige las que quieras)</legend>
+                    
+                    <ul>
+                        <li>
+                            <label>
+                                    <input type="checkbox" name="caracteristicas[]" value="ConCordones">Con cordones
+                            </label>
+                        </li>
+                    
+                        <li>
+                            <label>
+                                    <input type="checkbox" name="caracteristicas[]" value="LogoMetalico">Logo Met&aacute;lico
+                            </label>
+                        </li>
+                        
+                        <li>
+                            <label>
+                                    <input type="checkbox" name="caracteristicas[]" value="Ligeras">Ligeras
+                            </label>
+                        </li>
+                        
+                        <li>
+                            <label>
+                                    <input type="checkbox" name="caracteristicas[]" value="ConMusica">Con mu&uacute;sica
+                            </label>
+                        </li>
+                    
+                    </ul>
+            
+            
+                </fieldset>
+            
+                <fieldset>
+                    
+                    <legend>Tamaño</legend>
+            
+                        <label>Tamaño de los zapatos
+                            <select name="tamañoZapatos">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                            
+                            </select>
+                        </label>
+                </fieldset>
+            
+        </fieldset>
+
+        <label>
+                <input type="submit" name="enviarTodo" value="Solicitar">
+        </label>
+        
+        <label>
+                <input type="reset" name="restablecer" value="Restablecer">
+        </label>
+      
+    </form> 
+        
+    </body>
+
+
+    </html>
